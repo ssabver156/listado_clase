@@ -1,0 +1,92 @@
+/* Estilos para el body */
+body {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(23, 23, 23);
+    background-color: #f9f9f9; 
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    padding: 0px 10px;
+}
+
+a {
+    color: rgb(91, 73, 254);
+    text-decoration: none;
+    background-color: transparent; 
+}
+  
+a:hover {
+      color: rgb(125, 232, 140);
+}
+
+/*Estilos exclusivos de la tabla*/
+.tabla {
+    margin: auto; /*Con esto centramos la tabla*/
+    width: 90%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+  
+.tabla, .tabla th, .tabla td{
+    border: 1px solid black;
+}
+  
+.tabla caption{
+    background: rgb(91, 73, 254);
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tabla th{
+    background: rgb(207, 243, 125);
+    padding: 5px 10px;
+}
+  
+.tabla td{
+    padding: 5px;
+    text-align: center;
+}
+
+/*Estilos para el footer*/
+footer {
+    background: rgb(91, 73, 254);
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+  
+#enlaces-legales {
+    margin-top: 5px;
+}
+
+#enlaces-legales a {
+    color: white;
+}
+
+#enlaces-legales a:hover {
+    color: rgb(125, 232, 140);
+}
+  
+#enlaces-legales li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+/*Estilos para poner colores de fondo*/
+#cayetano{
+    background-color: black;
+    color: white;
+}
